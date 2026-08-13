@@ -1,3 +1,11 @@
+# Local datasets (do not commit NSL-KDD or processed files)
+# Ignore folder contents; keep the directories in the project tree.
+# A .gitkeep (if added later) can still be tracked so Git retains the empty folders.
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
