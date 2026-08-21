@@ -1,0 +1,18 @@
+{
+  "model_name": "nsl_kdd_random_forest_500",
+  "model_type": "sklearn.pipeline.Pipeline[ColumnTransformer + RandomForestClassifier]",
+  "n_estimators": 500,
+  "random_state": 42,
+  "class_weight": null,
+  "smote_used": false,
+  "threshold_tuning": false,
+  "selection_split": "KDDTrain+ stratified validation (test_size=0.20, random_state=42)",
+  "training_partition": "X_train_fit / y_train_fit only",
+  "validation_macro_f1": 0.951031,
+  "validation_accuracy": 0.998809,
+  "kddtest_note": "KDDTest+ was not used for model selection.",
+  "artifact_filename": "nsl_kdd_random_forest_500.joblib",
+  "python_version": "3.10.11",
+  "sklearn_version": "1.7.2",
+  "joblib_version": "1.5.2"
+}
