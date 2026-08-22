@@ -9,3 +9,6 @@ METADATA_PATH = MODELS_DIR / "nsl_kdd_random_forest_500_metadata.json"
 CONTRACT_PATH = MODELS_DIR / "nsl_kdd_random_forest_500_input_contract.json"
 
 ALLOWED_OUTPUT_CLASSES = ("Normal", "DoS", "Probe", "R2L", "U2R")
+
+# Maximum records accepted by POST /predict/batch.
+MAX_BATCH_SIZE = 100
