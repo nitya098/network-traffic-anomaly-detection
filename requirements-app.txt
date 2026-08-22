@@ -1,0 +1,7 @@
+# Phase 1 FastAPI application (install alongside requirements.txt).
+# Existing ML pins stay in requirements.txt and are not duplicated here.
+fastapi==0.115.12
+uvicorn==0.34.2
+pydantic==2.10.6
+httpx==0.28.1
+pytest==8.3.5
